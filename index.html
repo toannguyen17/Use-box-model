@@ -1,0 +1,51 @@
+<html>
+<head>
+    <meta CHARSET="UTF-8">
+    <title>[Thực hành] Sử dụng box model</title>
+    <style>
+        html, body {
+            background: #f8f8f8;
+            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        }
+        .boxmodel {
+            background: #fff;
+            margin: 0 auto;
+            margin-top: 50px;
+            width: 800px;
+            border: 10px;
+            padding: 10px;
+            border-color: #ff0084 #088fc4 #41b301 #958203;
+            border-style: solid;
+        }
+
+        .boxmodel p {
+            border: 3px dotted darkred;
+            padding: 10px;
+        }
+
+        #boxmodel1 {
+            margin-bottom: 20px;
+        }
+
+        #boxmodel2 {
+            margin-bottom: 40px;
+            border-style: double;
+        }
+
+        #boxmodel3 {
+            margin-bottom: 60px;
+            border-style: dashed;
+        }
+    </style>
+</head>
+<body>
+<div class="boxmodel">
+    <p id="boxmodel1">Mô hình hộp trong CSS về cơ bản là một hộp bao quanh phần tử HTML.
+        Nó bao gồm: lề (margin), viền (border), phần đệm (padding) và nội dung (content)</p>
+    <p id="boxmodel2">Mô hình hộp trong CSS về cơ bản là một hộp bao quanh phần tử HTML.
+        Nó bao gồm: lề (margin), viền (border), phần đệm (padding) và nội dung (content)</p>
+    <p id="boxmodel3">Mô hình hộp trong CSS về cơ bản là một hộp bao quanh phần tử HTML.
+        Nó bao gồm: lề (margin), viền (border), phần đệm (padding) và nội dung (content)</p>
+</div>
+</body>
+</html>
